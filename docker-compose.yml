@@ -13,7 +13,7 @@ services:
     restart: always
   my-app:
     #image: medalibettaieb/demo-rest-api:0.0.1-SNAPSHOT
-    image: cicdvalidation:0.0.1-SNAPSHOT
+    image: jedhammi/cd-validation:0.0.1-SNAPSHOT
     ports:
       - '8087:8080'
     volumes:
